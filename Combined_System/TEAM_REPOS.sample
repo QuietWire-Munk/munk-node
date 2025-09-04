@@ -1,0 +1,7 @@
+# List of team repo SSH URLs for Munk Session
+# Replace with real URLs (use SSH form, not HTTPS)
+git@github.com-quietwire-munk:QuietWire-Munk/team1-manufacturer.git
+git@github.com-quietwire-munk:QuietWire-Munk/team2-cultural-center.git
+git@github.com-quietwire-munk:QuietWire-Munk/team3-pub.git
+git@github.com-quietwire-munk:QuietWire-Munk/team4-government.git
+git@github.com-quietwire-munk:QuietWire-Munk/team5-neighborhood.git
