@@ -47,3 +47,12 @@ clean-sources:
 	@rm -rf $(SRC) && echo "Removed $(SRC)"
 
 clean: clean-snapshot clean-sources
+
+# Inject TEAM_REPOS from sample into pull_teams.sh
+.PHONY: set-repos
+set-repos:
+	@echo "== Setting team repo URLs from Combined_System/TEAM_REPOS.sample =="
+	@./Combined_System/set_team_repos.sh
+	@echo
+	@echo "Current TEAM_REPOS in pull_teams.sh:"
+	@grep -A6 '^TEAM_REPOS=' Combined_System/pull_teams.sh || true
